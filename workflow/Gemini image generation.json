@@ -134,7 +134,7 @@
     },
     {
       "id": 46,
-      "type": "Gemini_Flash_200_Exp",
+      "type": "GeminiFlashTwoExp",
       "pos": [
         2914.975341796875,
         4036.62255859375
@@ -183,7 +183,7 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "Gemini_Flash_200_Exp"
+        "Node name for S&R": "GeminiFlashTwoExp"
       },
       "widgets_values": [
         "woman in image_1 in image_2 shirt",

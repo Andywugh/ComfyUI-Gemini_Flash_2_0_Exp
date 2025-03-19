@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": 103,
-      "type": "Gemini_Flash_200_Exp",
+      "type": "GeminiFlashTwoExp",
       "pos": [
         616.6256713867188,
         982.1531372070312
@@ -55,7 +55,7 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "Gemini_Flash_200_Exp"
+        "Node name for S&R": "GeminiFlashTwoExp"
       },
       "widgets_values": [
         "Analyze the situation in details.",

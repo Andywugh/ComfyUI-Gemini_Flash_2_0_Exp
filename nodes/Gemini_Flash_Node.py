@@ -55,7 +55,7 @@ class ChatHistory:
     def clear(self):
         self.messages = []
 
-class Gemini_Flash_200_Exp:
+class GeminiFlashTwoExp:
     def __init__(self, api_key=None):
         config = get_config()
         self.api_key = api_key or config.get("GEMINI_API_KEY")
@@ -572,9 +572,9 @@ class Gemini_Flash_200_Exp:
         return (generated_content, self.create_placeholder_image())
         
 NODE_CLASS_MAPPINGS = {
-    "Gemini_Flash_200_Exp": Gemini_Flash_200_Exp,
+    "GeminiFlashTwoExp": GeminiFlashTwoExp,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Gemini_Flash_200_Exp": "Gemini Flash 2.0 Experimental",
+    "GeminiFlashTwoExp": "Gemini Flash 2.0 Experimental",
 }
